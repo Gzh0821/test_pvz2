@@ -52,4 +52,5 @@ const electron = {
     }
   }
 }
+
 window.electron = electron
