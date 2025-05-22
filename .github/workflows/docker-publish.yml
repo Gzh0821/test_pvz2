@@ -9,7 +9,7 @@ on:
 
 env:
   DOCKERHUB_REPO: gaozih/pvzge # Replace with your Docker Hub repo
-  GHCR_REPO: ghcr.io/Gzh0821/test_pvz2 # Replace with your GHCR repo name (often same as GitHub repo)
+  GHCR_REPO: ghcr.io/Gzh0821/pvzge_web # Replace with your GHCR repo name (often same as GitHub repo)
 
 jobs:
   build-and-push:
