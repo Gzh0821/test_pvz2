@@ -14,7 +14,7 @@ const electron = {
     }
   },
   exitFullscreen: () => {
-    if (document.exitFullscreen) {
+    if (electron.isFullscreen() && document.exitFullscreen) {
       document.exitFullscreen();
     } else if (document.mozCancelFullScreen) { // Firefox
       document.mozCancelFullScreen();
